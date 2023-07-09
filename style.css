@@ -1,0 +1,94 @@
+.CV{
+  margin: 0 auto;
+  font: bold 20px Verdana, sans-serif;
+  text-align: center;
+  padding: 0px 15px;
+}
+
+.photo{
+  float: right;
+  width: 250px;
+  height: 250px;
+  margin: 0,5px;
+  padding: 0px;
+  border: 3px solid #696969;
+}
+
+.nav{
+  margin: 15px 0px 15px 0px;
+  text-align: center;
+  font: normal 12px Verdana, sans-serif;
+  padding: 0px 15px;
+}
+
+.a{
+  color: black
+}
+
+.nameHeader{
+  margin: 10px;
+  font: bold 24px Verdana, sans-serif;
+  padding: 0px 15px;
+}
+
+.info{
+  margin: 15px 15px 15px 35px;
+  font: normal 20px Verdana, sans-serif;
+  line-height; 30px;
+  padding: 0px 15px;
+}
+
+.about{
+  margin: 15px 15px 15px 35px;
+  font: normal 20px Verdana, sans-serif;
+  padding: 0px 15px;
+}
+
+.code{
+  padding: 15px;
+  margin: 20px 20px 20px 35px;
+  font: italic 20px Verdana, sans-serif;
+  border: 1px solid black;
+  background-color:#FFFAFA;
+}
+
+.line{
+  border: solid; 
+  background-color: black; 
+  height: 0,5px; 
+  padding: 0px 15px;
+}
+
+.lineNav{
+  margin:5px;
+  border: solid; 
+  background-color: black; 
+  height: 0,5px;
+  width: 800px;
+  padding: 0px 15px;
+}
+
+.rsLogo{
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin: 5px 10px 0px 0px;
+  padding: 0px 15px;
+}
+
+.info2{  
+  margin: 35px;
+  text-align: left;
+  font: normal 15px Verdana, sans-serif;
+  padding: 0px 15px;
+}
+
+@media (min-width: 1199.98px){
+  nav,footer,header,body,main {  
+  padding: 0 calc(50% - 590px);
+}
+}
+
+nav,footer,header,body,main{
+  background-color:#E6E6FA;
+}
