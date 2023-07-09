@@ -1,10 +1,69 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <link href="D:/rsschool-cv/style.css" rel="stylesheet" type="text/css">
     <title>My CV</title>
     <meta charset="UTF-8">
   </head>
   <body>
-    <div>My experience</div>
+    <header>
+      <h1 class="CV">MY CV</h1>
+      <img class="photo" src="D:/rsschool-cv/photo.jpg" alt="My photo">
+    </header>
+    <nav class="nav">
+      <a class="a" href="#1">Full name</a> | <a class="a" href="#2">Contacts</a> |
+      <a class="a" href="#3">About myself</a> | <a class="a" href="#4">Knowledges</a> |
+      <a class="a" href="#5">Education</a> | <a class="a" href="#6">English level</a> |
+      <a class="a" href="#7">Experience</a> | <a class="a" href="#8">Code example</a> |
+      <a class="a" href="#9">Projects</a>
+    </nav>
+    <div class="lineNav"></div>
+    <main>
+      <h2 id="1" class="nameHeader">Full name:</h2>
+        <p class="info">Olga Zhukovskaya</p>
+      <h2 id="2" class="nameHeader">Contacts:</h2>
+        <ul class="info">
+          <li>+37533336****</li>
+          <li>discord:bitter7</li>
+          <li>Linkedin: www.linkedin.com/in/olga-zhukovskaya-qa</li>
+        </ul>
+      <h2 id="3" class="nameHeader">About myself:</h2>
+        <p class="about">
+         Now I work as a QA-engineer in a Belarusian IT-product company.<br>I test the quality of desktop application, look for new bugs, make bug reports and other test documentation, communicate with developers, BAs, support and etс.<br>I really like my position, but I want to look for new opportunities in web testing.<br>I'm also learning JS on my own and this course will help me get better at it.
+        </p>
+      <h2 id="4" class="nameHeader">Knowledges:</h2>
+        <ul class="info">
+          <li>The ability to use different types of testing</li>
+          <li>HTML, CSS, JS (basic)</li>
+          <li>tools: Postman, Swagger, Fiddler</li>
+          <li>working with Jira, Testrail, Confluence</li>
+        </ul>
+      <h2 id="5" class="nameHeader">Education:</h2>
+        <div class="info">
+          I graduated from International University "MITSO" with a bachelor's degree in logistics.<br>The process of learning to test and JS is also done independently using all possible resources, such as stepik, youtube, etc.
+        </div>
+      <h2 id="6" class="nameHeader">English level:</h2>
+        <p class="info">Between A2-B1</p>
+      <h2 id="7" class="nameHeader">Experience:</h2>
+        <p class="info">I have two years of experience as a manual QA-engineer.</p>
+      <h2 id="8" class="nameHeader">Code example:</h2>
+        <p>
+        <code class="code">function multiply(a, b){
+          const result = a * b;
+          return result;
+        }
+      </code>
+      </p>
+      <h2 id="9" class="nameHeader">Projects:</h2>
+        <p class="info"><a class="a" href="https://github.com/bitter7/rsschool-cv">My first JS project</a></p>
+    </main>
+    <div class="line"></div>
+    <footer>
+      <img class="rsLogo" src="https://rs.school/images/rs_school_js.svg" alt="logo course">
+      <nav class="info2">
+        <a class="a" href="https://github.com/bitter7">My GitHub</a> | <a class="a" href="https://rs.school/js/">Rs School</a> 
+        <p>2023</p>
+      </nav>
+    </footer>
   </body>
 </html>
